@@ -1,0 +1,132 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 30px auto;
+  width: 420px;
+  border: 1px solid #aeaeae;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* logo */
+
+.logo {
+  /* border: 1px solid black; */
+  width: 50%;
+  display: flex;
+}
+
+/* tulisan */
+
+.container .tulisan {
+  flex-direction: column;
+  width: 60%;
+}
+
+span {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.judul {
+  font-weight: bold;
+}
+
+/* logo kanan */
+
+.kanan {
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 30%;
+}
+
+.kanan img {
+  width: 30px;
+  height: 30px;
+}
+
+/* logo bawah */
+
+.bawah {
+  width: 20%;
+}
+
+.bawah img {
+  width: 30px;
+  height: 30px;
+  margin-top: 3px;
+}
+
+.kanan-bawah {
+  flex-direction: row-reverse;
+}
+
+.kanan-bawah img {
+  width: 30px;
+  height: 30px;
+}
+
+/* isi video */
+
+.container-dua {
+  display: flex;
+  flex-direction: column;
+}
+
+.video {
+  width: 100%;
+  height: 70px;
+  /* border: 1px solid saddlebrown; */
+  display: flex;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.angka {
+  align-self: center;
+}
+
+.thumb {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100px;
+  background-color: rebeccapurple;
+}
+
+.isian {
+  color: rgb(126, 126, 126);
+}
+
+.isi {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.isi .judul {
+  flex: 2;
+}
+
+.pilihan img {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+}
+
+.pilihan {
+  display: none;
+}
+
+.video:hover {
+  background-color: #aeaeae;
+}
+
+.video:hover .pilihan {
+  display: flex;
+  align-self: center;
+}
